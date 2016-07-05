@@ -1,5 +1,5 @@
 # moonlight
-```
+```javascript
 //schema.js
 import { String, Bool } from '../../types';
 
@@ -10,7 +10,7 @@ export default {
     }
 };
 ```
-```
+```javascript
 // server.js
 import { Schema, Config } from '../../';
 import schema from './schema'
@@ -31,7 +31,7 @@ Config({
 
 Schema(schema);
 ```
-```
+```javascript
 //client.js
 ```
 
